@@ -1,0 +1,29 @@
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Firebase
+firebase-service-account.json
+*.json.key
+
+# macOS
+.DS_Store
+*.swp
+
+# Models
+models/
+*.gguf
+*.bin
+
+# Training outputs
+training/**/__pycache__/
+node_modules
+node_modules/
