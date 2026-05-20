@@ -1,0 +1,9 @@
+[run]
+command = "bash start_replit.sh"
+
+[env]
+PYTHONPATH = "backend"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
